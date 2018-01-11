@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/dayfour/src/main/scala/edu/knoldus/Operation.scala:20:37: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m          case head :: tail => head + calculation(tail)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

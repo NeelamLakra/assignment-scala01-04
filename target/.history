@@ -1,0 +1,11 @@
+scalastyle
+scalastyleGenerateConfig
+sbt scalastyle
+sbt run
+scalastyle
+scalastyleGenerateConfig
+scalastyle
+scalastyleGenerateConfig
+scalastyle
+sbt run
+run
