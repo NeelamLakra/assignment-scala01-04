@@ -15,13 +15,16 @@ object ApplicationClass extends App {
   val sumOfInt= log.info(" sum of ints " + caller.sum((p, q) => (p + q), input1, input2) + "\n")
   val invalidCase = log.info(" for invalid inputs " + caller.sum((p, q) => 0, x, y) + "\n")
 
-  val first = 10;
-  val second = 20;
+  val first = 10
+  val second = 20
   val third = 30
   val list = List(first, second, third)
-  //val sumOfList = log.info(caller.operationsOnList(list, "max", (list) => Int))
-}
+  val productOfList = log.info("product of list " + caller.operateList(list,(x,y) => x * y,"product") + "\n")
+  val sumOfList = log.info("sum of list is :" + caller.operateList(list,(x,y) => x + y,"sum") + "\n")
+  val maxInList = log.info("maximum number in the list is :" + caller.operateList(list,(x,y) => if(x > y)x else y,"max"))
 
+
+}
 
 
 
